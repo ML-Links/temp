@@ -23,7 +23,7 @@ $$
 This is the first approximation, for a practically non-moving medium. By remembering Newton's equation of motion, M is momentum density, either the momentum produced, or a part thereof. J. J. Thomson tried to make this go. He assumed M to be the momentum itself. But I cannot follow his investigation ("Recent Advances," p. 22), and believe the result is erroneous.
 
 My own interpretation (*El. Pa.*, v. 2, p. 558) is this. The Newtonian equation of motion of any material (or inertial) medium is
-
+ 
 $$
 \mathbf{F}+\mathbf{X}=m\frac{\delta \mathbf{q}}{\delta t}, \tag{2}
 $$
