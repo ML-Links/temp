@@ -351,7 +351,7 @@ q_1=\tfrac12(-z\pm\sqrt{z^2-4z}),\qquad q_2=\tfrac12(-z\mp\sqrt{z^2-4z});
 $$
 
 $$
-\\therefore\quad q_1q_2=z,\qquad q_1-q_2=\sqrt{z^2-4z},\qquad q_1^2=\frac z2\left(z-2-\sqrt{z^2-4z}\right). \tag{10}
+\therefore\quad q_1q_2=z,\qquad q_1-q_2=\sqrt{z^2-4z},\qquad q_1^2=\frac z2\left(z-2-\sqrt{z^2-4z}\right). \tag{10}
 $$
 
 We may therefore write
