@@ -487,23 +487,23 @@ $$
 In this form we see that the transformation from (13) to (14) depends upon the generalised cosine function. Thus, let
 
 $$
-\Cos q=\cdots+\frac{q^{-4}}{[-4]}-\frac{q^{-2}}{[-2]}+1-\frac{q^2}{[2]}+\frac{q^4}{[4]}-\cdots, \tag{17}
+\operatorname{Cos} q=\cdots+\frac{q^{-4}}{[-4]}-\frac{q^{-2}}{[-2]}+1-\frac{q^2}{[2]}+\frac{q^4}{[4]}-\cdots, \tag{17}
 $$
 
-then $\Cos q$ is numerically the same as $\cos q$. But it does not behave the same when differentiated, for
+then $\operatorname{Cos} q$ is numerically the same as $\cos q$. But it does not behave the same when differentiated, for
 
 $$
-\Delta^{-r}\Cos q=\cdots+\frac{q^{r-4}}{[r-4]}-\frac{q^{r-2}}{[r-2]}+\frac{q^r}{[r]}-\frac{q^{r+2}}{[r+2]}+\frac{q^{r+4}}{[r+4]}\cdots. \tag{18}
+\Delta^{-r}\operatorname{Cos} q=\cdots+\frac{q^{r-4}}{[r-4]}-\frac{q^{r-2}}{[r-2]}+\frac{q^r}{[r]}-\frac{q^{r+2}}{[r+2]}+\frac{q^{r+4}}{[r+4]}\cdots. \tag{18}
 $$
 
 Now $\Delta\cos q=\cos(q+\tfrac12\pi r)$, so the effect of $\Delta^{-r}$ is to add $-\tfrac12\pi r$ to the argument. This makes
 
 $$
-\Delta^{-r}\Cos q=\cos\left(q-\tfrac12\pi r\right)=\cdots+\frac{q^{r-2}}{[r-2]}+\frac{q^r}{[r]}-\frac{q^{r+2}}{[r+2]}\cdots, \tag{19}
+\Delta^{-r}\operatorname{Cos} q=\cos\left(q-\tfrac12\pi r\right)=\cdots+\frac{q^{r-2}}{[r-2]}+\frac{q^r}{[r]}-\frac{q^{r+2}}{[r+2]}\cdots, \tag{19}
 $$
 
 $$
-\Delta^{-r}\Sin q=\sin\left(q-\tfrac12\pi r\right)=\cdots-\frac{q^{r-1}}{[r-1]}+\frac{q^{r+1}}{[r+1]}-\frac{q^{r+3}}{[r+3]}\cdots. \tag{20}
+\Delta^{-r}\operatorname{Sin} q=\sin\left(q-\tfrac12\pi r\right)=\cdots-\frac{q^{r-1}}{[r-1]}+\frac{q^{r+1}}{[r+1]}-\frac{q^{r+3}}{[r+3]}\cdots. \tag{20}
 $$
 
 The above is something like the way of constructing an integral for $x^n/[n]$, in vol. 2, p. 435. Or thus (if $\Delta=d/dx$), by the above,
@@ -567,7 +567,7 @@ $$
 Examine (27), to show the behaviour at the origin. By preliminary rough work, it is to be seen that $D$ falls to zero, and becomes negative; then rises again towards zero. The work soon becomes too long; so turn (27) to a divergent series. Thus, putting $z=a^2t^2/4t_1$, we get
 
 $$
-\frac{D}{D_0}=\frac{(z\pi)^{1/2}}{\pi t_1}\left(z^{-1/2}-\frac{z^{1/2}}{[\tfrac12]}+\frac{z^{3/2}}{[1\tfrac12]}-\cdots\right). \tag{28}
+\frac{D}{D_0}=\frac{(z\pi)^{1/2}}{\pi t_1}\left(z^{-1/2}-\frac{z^{1/2}}{[\tfrac12]}+\frac{z^{3/2}}{[1\tfrac12]}-\cdots\right). \tag{90}
 $$
 
 This belongs to the type of the generalised $e^{-z}$ series, and is equivalent to
@@ -577,7 +577,7 @@ $$
 $$
 
 $$
-=-\frac1\pi\left(\frac{2}{a^2t^2}+\frac{4}{[2]}\frac{t_1}{a^4t^4}+\frac{6}{[3]}\frac{t_1^2}{a^6t^6}+\cdots\right). \tag{29}
+=-\frac1\pi\left(\frac{2}{a^2t^2}+\frac{4}{[2]}\frac{t_1}{a^4t^4}+\frac{6}{[3]}\frac{t_1^2}{a^6t^6}+\cdots\right). \tag{91}
 $$
 
 This shows return towards equilibrium without oscillation. As a specimen, put $t_1=1$ and $D_0/\pi=1$; then the initial value of $D$ is $1$, which falls to $\tfrac12$ at a little over $at=1$, passes $0$ a little before $at=2$, and approaches a negative value before rising again asymptotically to zero.
@@ -585,19 +585,19 @@ This shows return towards equilibrium without oscillation. As a specimen, put $t
 Now derive the value of $D$ at $x$. By the same process,
 
 $$
-\frac{D}{D_0}=\frac1\pi\int_0^\infty \frac{t_1\,dn}{t_1^2+x^2}\left\{1-\frac{a^2t^2x^2-t_1^2}{[2](\cdot)^2}+\frac{2a^4t^4t_1^3-3x^2t_1}{[4](\cdot)^3}+\cdots\right\}, \tag{30}
+\frac{D}{D_0}=\frac1\pi\int_0^\infty \frac{t_1\,dn}{t_1^2+x^2}\left\{1-\frac{a^2t^2x^2-t_1^2}{[2](\cdot)^2}+\frac{2a^4t^4t_1^3-3x^2t_1}{[4](\cdot)^3}+\cdots\right\}, \tag{92}
 $$
 
 where $(\cdot)$ means $(t_1^2+x^2)$, for brevity. If we use the divergent form to obtain $D$ at $x$ by the same process, it is clear that the arising solution cannot be complete, because the auxiliary function previously called $D_1$ makes no appearance. What we get is, calling this partial solution $D_2$,
 
 $$
-\frac{D_2}{D_0}=-\frac{2}{\pi a^2t^2}\left[1-\frac{5}{[2]}\frac{x^2}{a^4t^4}+\frac{9}{[4]}\frac{x^4}{a^8t^8}-\cdots+\frac{t_1}{a^2t^2}\left(3-\frac{14}{[2]}\frac{x^2}{a^4t^4}+\cdots\right)+\cdots\right]. \tag{31}
+\frac{D_2}{D_0}=-\frac{2}{\pi a^2t^2}\left[1-\frac{5}{[2]}\frac{x^2}{a^4t^4}+\frac{9}{[4]}\frac{x^4}{a^8t^8}-\cdots+\frac{t_1}{a^2t^2}\left(3-\frac{14}{[2]}\frac{x^2}{a^4t^4}+\cdots\right)+\cdots\right]. \tag{93}
 $$
 
-Returning to (30), let $r=(x^2+t_1^2)^{1/2}$ and $t_1/r=\cos\phi$, $x/r=\sin\phi$. Then, by reference to a trigonometrical work for the expansion of $\cos n\phi$, it will be seen that (30) may be expressed as
+Returning to (92), let $r=(x^2+t_1^2)^{1/2}$ and $t_1/r=\cos\phi$, $x/r=\sin\phi$. Then, by reference to a trigonometrical work for the expansion of $\cos n\phi$, it will be seen that (92) may be expressed as
 
 $$
-\frac{D}{D_0}=\frac1{\pi t_1}\left(\cos\phi-\frac{a^2t^2\cos2\phi}{[2]r}+\frac{2a^4t^4\cos3\phi}{[4]r^2}-\frac{3a^6t^6\cos4\phi}{[6]r^3}+\cdots\right). \tag{32}
+\frac{D}{D_0}=\frac1{\pi t_1}\left(\cos\phi-\frac{a^2t^2\cos2\phi}{[2]r}+\frac{2a^4t^4\cos3\phi}{[4]r^2}-\frac{3a^6t^6\cos4\phi}{[6]r^3}+\cdots\right). \tag{94}
 $$
 
 Now for any given values of $t_1$ and $x$, the cosine tables may be used to ease the full calculations. The explanation of this form is as follows. In the diagram let the straight line AA represent the undisturbed surface of the water, and the lines BB and CC represent undisturbed lower levels.
@@ -613,59 +613,59 @@ If, then, we take the level CC to be the undisturbed surface of the water, and i
 Knowing the vertical displacement upward, say $D_z$, or
 
 $$
-D_z=\frac{D_0}{\pi r}\left(\cos\phi-\frac{a^2t^2\cos2\phi}{[2]r}+\frac{2a^4t^4\cos3\phi}{[4]r^2}-\cdots\right), \tag{33}
+D_z=\frac{D_0}{\pi r}\left(\cos\phi-\frac{a^2t^2\cos2\phi}{[2]r}+\frac{2a^4t^4\cos3\phi}{[4]r^2}-\cdots\right), \tag{95}
 $$
 
 throughout the water, it is easy to deduce the horizontal displacement from the condition of incompressibility, $dD_x/dx+dD_z/dz=0$. It makes
 
 $$
-D_x=\frac{D_0}{\pi r}\left(\sin\phi-\frac{a^2t^2\sin2\phi}{[2]r}+\frac{2a^4t^4\sin3\phi}{[4]r^2}-\cdots\right). \tag{34}
+D_x=\frac{D_0}{\pi r}\left(\sin\phi-\frac{a^2t^2\sin2\phi}{[2]r}+\frac{2a^4t^4\sin3\phi}{[4]r^2}-\cdots\right). \tag{96}
 $$
 
 This is $D_x$ towards the origin, that is, to the left on the right side. Both may be included in one formula. Let $R=re^{i\phi}$. Then
 
 $$
-D_z-iD_x=\frac{D_0}{\pi R}\left(1-\frac{a^2t^2}{[2]R}+\frac{2a^4t^4}{[4]R^2}-\frac{3a^6t^6}{[6]R^3}+\cdots\right). \tag{35}
+D_z-iD_x=\frac{D_0}{\pi R}\left(1-\frac{a^2t^2}{[2]R}+\frac{2a^4t^4}{[4]R^2}-\frac{3a^6t^6}{[6]R^3}+\cdots\right). \tag{97}
 $$
 
 From $D_x$ and $D_z$ the displacement potential may be worked out. But perhaps better more directly thus. Go back to the operational form. We have
 
 $$
-D_z=\{1-p_1a^2/p^2\}^{-1}\times \text{initial value of } D_z. \tag{36}
+D_z=\{1-p_1a^2/p^2\}^{-1}\times \text{initial value of } D_z. \tag{98}
 $$
 
 This must apply equally to the potential of which $D_z$ is the derivative. Let the potential be $\Phi$. Its initial value is $(D_0/\pi)\log r$, as it is obvious on differentiation that it produces the assumed initial state of radial displacement. Therefore
 
 $$
-\Phi=\left\{1+\frac{a^2t^2}{[2]}p_1+\frac{a^4t^4}{[4]}p_1^2+\cdots\right\}\frac{D_0}{\pi}\log r, \tag{37}
+\Phi=\left\{1+\frac{a^2t^2}{[2]}p_1+\frac{a^4t^4}{[4]}p_1^2+\cdots\right\}\frac{D_0}{\pi}\log r, \tag{99}
 $$
 
 where $p_1=d/dz$. Carry this out. The result is, by the immediate use of $(-p_1)^n\log r=-[n-1]r^{-n}\cos n\phi$,
 
 $$
-\Phi=\frac{D_0}{\pi}\left(\log r+\frac{a^2t^2\cos\phi}{[2]r}-\frac{a^4t^4\cos2\phi}{[4]r^2}+\frac{2a^6t^6\cos3\phi}{[6]r^3}-\cdots\right). \tag{38}
+\Phi=\frac{D_0}{\pi}\left(\log r+\frac{a^2t^2\cos\phi}{[2]r}-\frac{a^4t^4\cos2\phi}{[4]r^2}+\frac{2a^6t^6\cos3\phi}{[6]r^3}-\cdots\right). \tag{100}
 $$
 
 and from this the above $D_x$ and $D_z$ may be derived. Also the radial and tangential components $D_r$ and $D_\phi$. Thus,
 
 $$
-D_r=\frac{D_0}{\pi r}\left(1-\frac{a^2t^2\cos\phi}{[2]r}+\frac{2a^4t^4\cos2\phi}{[4]r^2}-\frac{3a^6t^6\cos3\phi}{[6]r^3}+\cdots\right), \tag{39}
+D_r=\frac{D_0}{\pi r}\left(1-\frac{a^2t^2\cos\phi}{[2]r}+\frac{2a^4t^4\cos2\phi}{[4]r^2}-\frac{3a^6t^6\cos3\phi}{[6]r^3}+\cdots\right), \tag{101}
 $$
 
 $$
-D_\phi=\frac{D_0}{\pi r}\left(\frac{a^2t^2\sin\phi}{[2]r}-\frac{2a^4t^4\sin2\phi}{[4]r^2}+\frac{3a^6t^6\sin3\phi}{[6]r^3}-\cdots\right). \tag{40}
+D_\phi=\frac{D_0}{\pi r}\left(\frac{a^2t^2\sin\phi}{[2]r}-\frac{2a^4t^4\sin2\phi}{[4]r^2}+\frac{3a^6t^6\sin3\phi}{[6]r^3}-\cdots\right). \tag{102}
 $$
 
 where $D_r$ and $D_\phi$ are reckoned in the directions of decrease of $r$ and of $\phi$. On this understanding,
 
 $$
-D_r-iD_\phi=\frac{D_0}{\pi r}\left(1-\frac{a^2t^2}{[2]R}+\frac{2a^4t^4}{[4]R^2}-\frac{3a^6t^6}{[6]R^3}-\cdots\right). \tag{41}
+D_r-iD_\phi=\frac{D_0}{\pi r}\left(1-\frac{a^2t^2}{[2]R}+\frac{2a^4t^4}{[4]R^2}-\frac{3a^6t^6}{[6]R^3}-\cdots\right). \tag{103}
 $$
 
 Here, if we put $c=a^2t^2/4R$, the last equation becomes a part of the generalised $e^{-c}$ series. If $c$ is real, that is, in the vertical plane $\phi=0$ through the origin, we may convert to divergent form for numerical calculation of $D_z$ in that plane, as done above. Also, in the horizontal plane, $\phi=\tfrac12\pi$, we have converted $D_z$ to divergent form by the generalised cosine series. The same may be done for the horizontal displacement. Put $\phi=\tfrac12\pi$ in (34). Then
 
 $$
-D_x=\frac{D_0}{\pi x}\left(1-\frac{2a^4t^4}{[4]x^2}+\frac{4a^8t^8}{[8]x^4}-\cdots\right), \tag{42}
+D_x=\frac{D_0}{\pi x}\left(1-\frac{2a^4t^4}{[4]x^2}+\frac{4a^8t^8}{[8]x^4}-\cdots\right), \tag{105}
 $$
 
 which is convergent, with the same defect practically as the similar $D_z$ formula. Next, put $a^2t^2/4x=y$, then
@@ -675,13 +675,13 @@ $$
 $$
 
 $$
-=\frac{(y\pi)^{1/2}}{\pi x}\left\{\cos\left(y+\tfrac14\pi\right)+\frac{y^{-3/2}}{[-2\tfrac12]}-\cdots\right\}. \tag{43}
+=\frac{(y\pi)^{1/2}}{\pi x}\left\{\cos\left(y+\tfrac14\pi\right)+\frac{y^{-3/2}}{[-2\tfrac12]}-\cdots\right\}. \tag{106}
 $$
 
 This is done by using the generalised cosine form. Or, in terms of $x$ and $t$,
 
 $$
-\frac{D_x}{D_0}=\frac{at}{2\sqrt\pi x^{3/2}}\left\{\cos\left(\frac{a^2t^2}{4x}+\tfrac14\pi\right)+\frac{y^{-3/2}}{[-2\tfrac12]}+\cdots\right\}, \tag{44}
+\frac{D_x}{D_0}=\frac{at}{2\sqrt\pi x^{3/2}}\left\{\cos\left(\frac{a^2t^2}{4x}+\tfrac14\pi\right)+\frac{y^{-3/2}}{[-2\tfrac12]}+\cdots\right\}, \tag{107}
 $$
 
 which is the companion to (27).
@@ -697,23 +697,23 @@ $$
 $$
 
 $$
-=\frac{e^{-c}}{(c\pi)^{1/2}}\left(1-c-\frac{c^2}{3[2]}-\frac{c^3}{5[3]}-\frac{c^4}{7[4]}-\cdots\right). \tag{45}
+=\frac{e^{-c}}{(c\pi)^{1/2}}\left(1-c-\frac{c^2}{[3][2]}-\frac{c^3}{[5][3]}-\frac{c^4}{[7][4]}-\cdots\right). \tag{108}
 $$
 
 Here $c$ is complex, $=y e^{-\theta i}$, if $y$ is the real $a^2t^2/4r$. So, separating the two components, we convert the complex form to
 
 $$
-D_r-iD_\phi=\frac{e^{-y\cos\phi}}{\pi r}\left\{X\cos(y\sin\phi)-Y\sin(y\sin\phi)+iX\sin(y\sin\phi)+iY\cos(y\sin\phi)\right\}, \tag{46}
+D_r-iD_\phi=\frac{e^{-y\cos\phi}}{\pi r}\left\{X\cos(y\sin\phi)-Y\sin(y\sin\phi)+iX\sin(y\sin\phi)+iY\cos(y\sin\phi)\right\}, \tag{109}
 $$
 
 where
 
 $$
-X=1-y\cos\phi-y^2/3[2]\cos2\phi-y^3/5[3]\cos3\phi-\cdots,
+X=1-y\cos\phi-\frac{y^2}{[3][2]}\cos2\phi-\frac{y^3}{[5][3]}\cos3\phi-\cdots,
 $$
 
 $$
-Y=y\sin\phi+y^2/3[2]\sin2\phi+y^3/5[3]\sin3\phi+\cdots. \tag{47}
+Y=y\sin\phi+\frac{y^2}{[3][2]}\sin2\phi+\frac{y^3}{[5][3]}\sin3\phi+\cdots. \tag{110}
 $$
 
 The factor of decay in (46) is good, by itself, and if $X$ and $Y$ were of such a nature as to be readily calculable for large values of $y$, the real meaning would be ascertainable. We should rather have $X$ and $Y$ expressed in descending powers of $y$. That is, the $c$ series in (45) should be turned to an equivalent divergent series, numerically true for the real and unreal parts separately.
@@ -721,25 +721,25 @@ The factor of decay in (46) is good, by itself, and if $X$ and $Y$ were of such 
 Try another way. Since the water is assumed to be incompressible, its state of displacement all through is entirely determined by its state at the surface level, and this connection is instantaneous. Thus, if $d/dx=\Delta$, and $d^2V/dx^2+d^2V/dz^2=0$, then
 
 $$
-V=\cos z\Delta\,V_0+\frac{\sin z\Delta}{\Delta}\frac{dV_0}{dz}, \tag{48}
+V=\cos z\Delta\,V_0+\frac{\sin z\Delta}{\Delta}\frac{dV_0}{dz}, \tag{111}
 $$
 
 which finds $V$ at $x,z$ in terms of the values of $V$ and $dV/dz$ at $z=0$. But the boundary condition in this theory is
 
 $$
-\frac{dV}{dz}=\frac{\ddot V}{a^2}\qquad \text{at } z=0; \tag{49}
+\frac{dV}{dz}=\frac{\ddot V}{a^2}\qquad \text{at } z=0; \tag{112}
 $$
 
 so
 
 $$
-V=\cos z\Delta\,V_0+\frac{\sin z\Delta}{\Delta}\frac{\ddot V_0}{a^2}=\Re\,e^{z\Delta i}\left(1-\frac{ip^2}{\Delta a^2}\right)V_0. \tag{50}
+V=\cos z\Delta\,V_0+\frac{\sin z\Delta}{\Delta}\frac{\ddot V_0}{a^2}=\Re\,e^{z\Delta i}\left(1-\frac{ip^2}{\Delta a^2}\right)V_0. \tag{113}
 $$
 
 If we know $V_0$ as a function of $x$ and $t$, then also $\ddot V_0$. The data are complete, for the operator $e^{z\Delta i}$ turns $x$ in $V_0$ to $x+zi$. Calling this $S$,
 
 $$
-V=\Re\left(1-\frac{ip^2}{\Delta a^2}\right)V_0, \tag{51}
+V=\Re\left(1-\frac{ip^2}{\Delta a^2}\right)V_0, \tag{114}
 $$
 
 if $\Delta=d/dS$, and $V_0$ contains $S$ instead of $x$.
@@ -747,31 +747,53 @@ if $\Delta=d/dS$, and $V_0$ contains $S$ instead of $x$.
 If we apply this process to $D_z$ given convergently for the top level, it will give without difficulty the corresponding $D_z$ at any depth. That is, the original surface solution will be turned to the interior form. $D_x$ may be similarly treated. But now go through the same process with the divergent formula for the surface elevation. Use (27) in (51). First find the transformed factor. We have
 
 $$
-D_x=-\frac{\Delta a^2/p^2}{1+\Delta^2a^4/p^4}\frac1{x\pi},\qquad \therefore\qquad \frac{p^2D_z}{\Delta a^2}=\frac{-1}{1+\Delta^2a^4/p^4}\frac1{x\pi}=-D_x. \tag{52}
+D_x=-\frac{\Delta a^2/p^2}{1+\Delta^2a^4/p^4}\frac1{x\pi},\qquad \therefore\qquad \frac{p^2D_z}{\Delta a^2}=\frac{-1}{1+\Delta^2a^4/p^4}\frac1{x\pi}=-D_x. \tag{115}
 $$
 
 By inspection of (42), and so now we can use (44) combined with (35). The oscillating terms alone make, if $y=a^2t^2/4x$,
 
 $$
-\frac{at}{2\pi^{1/2}x^{3/2}}\left(\cos\left(y-\tfrac14\pi\right)+i\cos\left(y+\tfrac14\pi\right)\right)=\cdots=\frac{at}{2\pi^{1/2}x^{3/2}}i^{1/2}e^{-yi}. \tag{53}
+\frac{at}{2\pi^{1/2}x^{3/2}}\left(\cos\left(y-\tfrac14\pi\right)+i\cos\left(y+\tfrac14\pi\right)\right)=\cdots=\frac{at}{2\pi^{1/2}x^{3/2}}i^{1/2}e^{-yi}. \tag{116}
 $$
 
 Now change $x$ to $x+zi=re^{\theta i}$, with $y$ turned to $a^2t^2/4r$, and we get
 
 $$
-\frac{at}{2\pi^{1/2}r^{3/2}}e^{-\tfrac12 i(y\cos\theta-i\sin\theta)-\tfrac14\pi i+\tfrac12\theta}; \tag{54}
+\frac{at}{2\pi^{1/2}r^{3/2}}e^{-\tfrac12 i(y\cos\theta-i\sin\theta)-\tfrac14\pi i+\tfrac12\theta}; \tag{117}
 $$
 
 of which the real part is
 
 $$
-\frac{at}{2\pi^{1/2}r^{3/2}}e^{-y\sin\theta}\cos\left(y\cos\theta-\tfrac14\pi+\tfrac12\theta\right). \tag{55}
+\frac{at}{2\pi^{1/2}r^{3/2}}e^{-y\sin\theta}\cos\left(y\cos\theta-\tfrac14\pi+\tfrac12\theta\right). \tag{118}
 $$
 
-Doing the same for the divergent part of $D_2$, we get, after adding together the transformed pieces and restoring the old notation through $\theta=\tfrac12\pi-\phi$,
+Doing the same for the divergent part of $D_2$, we get
 
 $$
-\frac{D_z}{D_0}=\frac{at}{2\pi^{1/2}r^{3/2}}e^{-y\cos\phi}\sin\left(y\sin\phi-\tfrac12\phi\right)-\frac{2}{\pi a^2t^2}\left(1+\frac{3}{[1]}\frac{r\cos\phi}{a^2t^2}+\frac{5}{[2]}\frac{r^2\cos2\phi}{a^4t^4}+\cdots\right), \tag{56}
+-\frac{2}{\pi a^2t^2}\left(1-\frac{5r^2\cos2\theta}{[2]a^4t^4}+\frac{9r^4\cos4\theta}{[4]a^8t^8}-\cdots\right)
 $$
 
-where $y=a^2t^2/4r$. This is to represent the vertical displacement at any depth. To test harmony with former results, put $\phi=0$. Then we obtain the earlier vertical-plane formula; again, put $\phi=\tfrac12\pi$. Then we obtain the surface-elevation formula. So far good. But the first line in (56) changes sign with $\phi$. That is bad, but may be righted by the prefix $\mp$ instead of $-$, according as $\phi$ is $\pm$. Assuming that this formula is correct from $\phi=0$ to $\tfrac12\pi$, it is eminently suitable for showing the meaning without lengthy calculations. The exponential factor is very significant. The function $te^{-y\cos\phi}$ increases with the time to a maximum and then falls to zero, provided $\phi$ is less than $\tfrac12\pi$. But when $\phi=\tfrac12\pi$, the function increases for ever without limit. That is to say, at any point under the limiting plane, the oscillation set up by the initial condensed hump at the origin increases in amplitude up to a certain amount, and afterwards subsides to rest. But at the limiting level, the maximum will never be reached, so no subsidence is shown.
+$$
+-\frac{1}{\pi}\left(\frac{4r\sin\theta}{[2]a^4t^4}-\frac{8r^3\sin3\theta}{[4]a^8t^8}+\cdots\right)
+$$
+
+$$
+=-\frac{2}{\pi a^2t^2}\left(1+3\frac{r\sin\theta}{a^2t^2}-\frac{5r^2\cos2\theta}{[2]a^4t^4}-\frac{7r^3\sin3\theta}{[3]a^6t^6}+\cdots\right). \tag{119}
+$$
+
+Now add together (118) and (119), and restore the old notation through $\theta=\tfrac12\pi-\phi$, and we obtain
+
+$$
+\frac{D_z}{D_0}=-\frac{at}{2\pi^{1/2}r^{3/2}}e^{-y\cos\phi}\sin\left(y\sin\phi-\tfrac12\phi\right)-\frac{2}{\pi a^2t^2}\left(1+3\frac{r\cos\phi}{a^2t^2}+\frac{5}{[2]}\frac{r^2\cos2\phi}{a^4t^4}+\frac{7}{[3]}\frac{r^3\cos3\phi}{a^6t^6}+\cdots\right), \tag{120}
+$$
+
+where $y=a^2t^2/4r$. This is to represent the vertical displacement at any depth. To test harmony with former results, put $\phi=0$. Then we obtain the formula (91) for the displacement in the vertical plane through the origin, which is numerically equivalent to (88) when $a^2t^2$ is sufficiently large. Again, put $\phi=\tfrac12\pi$. Then we obtain the formula (27) for the elevation at the limiting plane. So far good. But the first line in (120) changes sign with $\phi$. That is bad, but may be righted by the prefix $\mp$ instead of $-$, according as $\phi$ is $\pm$. Assuming that this formula (120) is correct from $\phi=0$ to $\tfrac12\pi$, it is eminently suitable for showing the meaning without lengthy calculations. The exponential factor is very significant. The function $te^{-y\cos\phi}$ increases with the time to a maximum and then falls to zero, provided $\phi$ is less than $\tfrac12\pi$. But when $\phi=\tfrac12\pi$, the function increases for ever without limit. That is to say, at any point under the limiting plane, the oscillation set up by the initial condensed hump at the origin (or by a diffused hump at a lower level) increases in amplitude up to a certain amount, and afterwards subsides to rest. But at the limiting level, the maximum will never be reached, so no subsidence is shown. 
+
+This behaviour agrees with that of the original convergent solution (13). The limiting surface is therefore a surface of physical absurdity. We must go deeper, and have a diffused hump for physical intelligibility.
+
+Now, on treating the horizontal displacement in a similar manner, we come of course to a formula of the same type as (120), but with differences. It has the same value for $\phi=0.5 * \pi$ and $-0.5* \pi$, instead of the opposite, like the vertical displacement. Moreover, it has a finite value for  $\phi=0$, whereas it should be zero, by symmetry.
+Taking Dz and Dx together, then, the interior state indicated by (120) and its companion, taken unchanged on both sides of the origin,
+indicate an initial state not alike on the two sides, but opposite.
+So, if Dz is correctly given on the positive side, as seems from its values at $\phi=0$ and $\phi=0.5 * \pi$, there is some imperfection in the completer
+treatment to be removed, perhaps later. The trouble is to extend safely generalised series from real to complex quantities.

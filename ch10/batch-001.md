@@ -23,7 +23,7 @@ $$
 This is the first approximation, for a practically non-moving medium. By remembering Newton's equation of motion, M is momentum density, either the momentum produced, or a part thereof. J. J. Thomson tried to make this go. He assumed M to be the momentum itself. But I cannot follow his investigation ("Recent Advances," p. 22), and believe the result is erroneous.
 
 My own interpretation (*El. Pa.*, v. 2, p. 558) is this. The Newtonian equation of motion of any material (or inertial) medium is
- 
+
 $$
 \mathbf{F}+\mathbf{X}=m\frac{\delta \mathbf{q}}{\delta t}, \tag{2}
 $$
@@ -171,7 +171,7 @@ $$
 In a plane common electromagnetic wave $B$ and $D$ are perpendicular to one another and to the direction of motion of the wave, and $E=\mu vH$ connects their size. But in order that the two equations (21), (22) shall be consistent in general, they must become identical by a relation between $\mu$, $c$, $v$. Let
 
 $$
-\tfrac12 cE^2=\tfrac12 \mu H^2,\qquad \text{and}\qquad \mu c v^2=1. \tag{23}
+\\tfrac12 cE^2=\\tfrac12 \mu H^2,\qquad \text{and}\qquad \mu c v^2=1. \tag{23}
 $$
 
 These make $E=\mu vH$, and then (21), (22) become
@@ -425,11 +425,11 @@ $$
 which show that
 
 $$
-\tfrac12\left(q+\!\int v\,d\lambda\right)\text{ travels positively at speed }v+q; \tag{59}
+\\tfrac12\left(q+\!\int v\,d\lambda\right)\text{ travels positively at speed }v+q; \tag{59}
 $$
 
 $$
-\tfrac12\left(q-\!\int v\,d\lambda\right)\text{ travels negatively at speed }v-q. \tag{60}
+\\tfrac12\left(q-\!\int v\,d\lambda\right)\text{ travels negatively at speed }v-q. \tag{60}
 $$
 
 The sum and difference are $q$ and $\int v\,d\lambda$, which may be the given data, since the latter is a function of $m$.
@@ -443,11 +443,11 @@ $$
 So, by Riemann's results just got,
 
 $$
-\tfrac12(q+u-v)\text{ is the positive wave; speed }v+q; \tag{62}
+\\tfrac12(q+u-v)\text{ is the positive wave; speed }v+q; \tag{62}
 $$
 
 $$
-\tfrac12(q-u+v)\text{ is the negative wave; speed }v-q. \tag{63}
+\\tfrac12(q-u+v)\text{ is the negative wave; speed }v-q. \tag{63}
 $$
 
 Of course, it is not assumed here that $u=v+q$, but merely that $mv=$ constant. The quantities $q$ and $v$ may be the initial data, $v$ being a known function of $m$. Then (62), (63) show the division into the instantaneous positive and negative waves. Now $q=u-v$ makes the negative wave disappear; and then (62) shows that both $q$ and $v$ travel at speed $u$. This is Rankine's wave again.
@@ -555,7 +555,7 @@ $$
 so that altogether,
 
 $$
-\tfrac12 Mu=U-U_0+T. \tag{2}
+\\tfrac12 Mu=U-U_0+T. \tag{2}
 $$
 
 Both $\mathbf{M}_1$ and $\mathbf{M}_2$ are parallel to $\mathbf{u}$.
